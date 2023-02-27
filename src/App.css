@@ -1,0 +1,242 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
+
+body {
+  color: darkblue;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .nav > li {
+    width: 5%;
+  }
+  .nav > li:first-child {
+    width: 15%;
+  }
+
+  .login-btn {
+    display: none;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  
+  .form-container {
+    margin: 0 10px;
+  }
+  .nav-item:nth-child(6),
+  .nav-item:nth-child(2) {
+    display: none;
+  }
+  .login-btn {
+    margin-left: 15px;
+  }
+}
+
+body {
+  background-color: rgb(175, 222, 241);
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: darkblue;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+button {
+  transition: all 200ms ease-in-out;
+}
+
+label {
+  color: darkblue;
+  font-size: 18px;
+}
+
+input {
+  width: 60%;
+}
+img {
+  height: 70%;
+  margin-bottom: 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.card > img:hover {
+  transform: scale(1.08);
+}
+
+article {
+  border: none;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 15px #999;
+  background-color: floralwhite;
+  margin: 10px auto 20px;
+}
+
+article > img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+article > p {
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 500;
+}
+.more-btn {
+  width: 50%;
+}
+
+#menu-icon {
+  font-size: 30px;
+  color: darkblue;
+  padding: 5px;
+  border-radius: 5px;
+  color: #333;
+  transition: all 200ms ease-in-out;
+}
+
+#menu-icon:hover,
+.navbar-brand:hover,
+.logo:hover {
+  color: aliceblue;
+}
+
+.container {
+  margin: 100px auto 100px;
+}
+
+.card-top{
+display: block;
+margin: auto;
+}
+
+.home-container {
+  margin-top: 10%;
+  color: darkblue;
+  text-align: center;
+}
+
+.home-container {
+  margin-top: 100px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-container {
+  width: 80%;
+}
+
+.nav > li {
+  list-style-type: none;
+  padding: 3px;
+}
+
+.active {
+  color: darkblue;
+  background-color: skyblue;
+}
+
+.navbar-brand {
+  color: darkblue;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-container {
+  margin: 50px auto;
+}
+
+.card {
+  width: 240px;
+}
+
+.card-title {
+  margin-top: 5px;
+  color: darkblue;
+  height: 65px;
+}
+
+.card-img {
+  object-fit: contain;
+}
+
+.form-container {
+  background-color: rgba(86, 130, 227, 0.5);
+  padding: 30px 36px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #333;
+  min-height: 500px;
+  width: 75%;
+  margin: 30px 0 50px;
+}
+
+.form-label {
+  width: 30%;
+}
+
+.logo {
+  font-size: 30px;
+  margin-left: 30px;
+  color: darkblue;
+}
+
+.footer {
+  background-color: skyblue;
+  padding: 10px;
+  color: darkblue;
+}
+
+.home-container {
+  margin-top: 100px;
+}
+
+.social-icon {
+  background-color: #fff;
+  padding: 2px 8px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 34px;
+  margin-right: 10px;
+}
+
+.social-icon:hover {
+    background-color: #ddd;
+}
+
+.bi-facebook {
+  color: #1198f6;
+}
+
+.bi-telegram {
+  color: #24abec;
+}
+
+.bi-whatsapp {
+  color: #47c856;
+}
+
+.bi-youtube {
+  color: #ff0000;
+}
+
+.footer p {
+  margin: 0;
+}
