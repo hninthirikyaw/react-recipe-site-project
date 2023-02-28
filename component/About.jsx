@@ -14,7 +14,7 @@ const About = () => {
         </details>
       </aside>
       <div className="about mb-3">
-        <img src="../src/assets/meatball.jpg" alt="meatball" className="w-50 rounded"/>
+        <img src="https://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_bonappetit.png,fl_progressive,g_face,h_1080,q_80,w_1920/v1421082500/bonappetit_cook-like-a-pro-perfecting-the-meatball-with-the-chefs-behind-the-meatball-shop.jpg" alt="meatball" className="w-50 rounded"/>
         <h2>
           About our <abbr title="Little Recipe Store">LRS</abbr>
         </h2>

@@ -54,6 +54,10 @@ button {
   transition: all 200ms ease-in-out;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 label {
   color: darkblue;
   font-size: 18px;
